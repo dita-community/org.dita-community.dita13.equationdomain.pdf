@@ -1,0 +1,12 @@
+<!-- 
+  Plugin descriptor for the equation domain PDF2 extensions
+  
+  Copyright (c) 2015 Eliot Kimber
+  
+  Implements XSL-FO rendering of elements in the equation domain.
+  -->
+<plugin id="org.dita-community.dita13.equationdomain.pdf">
+  <feature extension="dita.xsl.xslfo"
+      value="xsl/equation-d2fo.xsl" type="file"/>
+      
+</plugin>
